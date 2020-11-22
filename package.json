@@ -1,0 +1,16 @@
+{
+  "name": "sokrutes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saukko666/sokrutes.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saukko666/sokrutes/issues"
+  },
+  "homepage": "https://github.com/saukko666/sokrutes#readme"
+}
