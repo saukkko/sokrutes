@@ -1,13 +1,13 @@
 {
   "name": "sokrutes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./public/index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saukko666/sokrutes.git"
   },
-  "author": "",
+  "author": "Sauli Kylmänen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/saukko666/sokrutes/issues"

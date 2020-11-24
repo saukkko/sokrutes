@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
+}
+p,
+span,
+div {
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: unset;
+}

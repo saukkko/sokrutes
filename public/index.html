@@ -24,55 +24,68 @@
   </head>
   <body>
     <div id="root">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <span class="navbar-brand">Sokru</span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapser"
-          aria-controls="navbarCollapser"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapser">
-          <div class="navbar-nav">
-            <a href="./index.html" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Page #1</a>
-            <a href="#" class="nav-link">Page #2</a>
-            <a href="#" class="nav-link">Page #2</a>
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <span class="navbar-brand">Sokru</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapser"
+            aria-controls="navbarCollapser"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapser">
+            <div class="navbar-nav">
+              <a href="./index.html" class="nav-link">Home</a>
+              <a href="#" class="nav-link">Page #1</a>
+              <a href="#" class="nav-link">Page #2</a>
+              <a href="#" class="nav-link">Page #2</a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
       <main class="bg-light">
-        <div class="container">
-          <h1>Home</h1>
+        <div class="container py-2">
+          <h1>Sokru</h1>
           <div class="row">
             <div class="col-sm-8">
+              <ul>
+                <li>FI*Vuolas Maalla, merellä, ilmassa</li>
+                <li>ABY n</li>
+                <li>18.2.2017</li>
+              </ul>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
               dolores debitis, a ipsum unde nisi itaque dolorum voluptate natus
               odio, fuga nihil voluptas. Dolor minima eos placeat ducimus, nihil
               doloremque!
             </div>
             <div class="col-sm-4">
-              <img
-                src="https://via.placeholder.com/250"
-                alt="Placeholder 250x250"
-                class="rounded img-fluid"
-              />
+              <a
+                href="./assets/img/fullsize/sokru-smol.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./assets/img/sokru-smol-thumb.jpg"
+                  alt="Smol boi"
+                  class="rounded img-fluid"
+                  width="250"
+                  height="250"
+                />
+              </a>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">Hello</div>
-            <div class="col-sm">Hello</div>
-            <div class="col-sm">Hello</div>
-            <div class="col-sm">Hello</div>
-            <div class="col-sm">Hello</div>
           </div>
         </div>
       </main>
+      <footer>
+        <div class="container-fluid bg-dark text-light p-1">
+          <p>footer</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
