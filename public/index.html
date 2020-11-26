@@ -26,7 +26,7 @@
     <div id="root">
       <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-          <span class="navbar-brand">Sokru</span>
+          <a href="./" class="navbar-brand">Sokru</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,10 +40,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapser">
             <div class="navbar-nav">
-              <a href="./index.html" class="nav-link">Home</a>
+              <a href="./" class="nav-link">Home</a>
               <a href="#" class="nav-link">Page #1</a>
               <a href="#" class="nav-link">Page #2</a>
-              <a href="#" class="nav-link">Page #2</a>
+              <a href="#" class="nav-link">Page #3</a>
             </div>
           </div>
         </nav>
@@ -52,7 +52,7 @@
         <div class="container py-2">
           <h1>Sokru</h1>
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
               <ul>
                 <li>FI*Vuolas Maalla, merellä, ilmassa</li>
                 <li>ABY n</li>
@@ -63,19 +63,22 @@
               odio, fuga nihil voluptas. Dolor minima eos placeat ducimus, nihil
               doloremque!
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <a
                 href="./assets/img/fullsize/sokru-smol.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="./assets/img/sokru-smol-thumb.jpg"
-                  alt="Smol boi"
-                  class="rounded img-fluid"
-                  width="250"
-                  height="250"
-                />
+                <figure class="figure">
+                  <img
+                    src="./assets/img/sokru-smol-thumb.jpg"
+                    alt="Smol boi"
+                    class="figure-img rounded img-fluid"
+                  />
+                  <figcaption class="figure-caption">
+                    Sokru 14vk ikäisenä
+                  </figcaption>
+                </figure>
               </a>
             </div>
           </div>
@@ -83,8 +86,22 @@
       </main>
       <footer>
         <div class="container-fluid bg-dark text-light p-1">
-          <p>footer</p>
+          <span id="date"></span>
         </div>
+        <script>
+          const dateformat = new Intl.DateTimeFormat("fi", {
+            dateStyle: "medium",
+            timeStyle: "medium",
+          });
+          let dateNow = () => {
+            let date = dateformat.format(new Date());
+            return date;
+          };
+          document.getElementById("date").innerHTML = dateNow();
+          setInterval(() => {
+            document.getElementById("date").innerHTML = dateNow();
+          }, 1000);
+        </script>
       </footer>
     </div>
   </body>
