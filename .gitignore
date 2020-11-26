@@ -1,7 +1,3 @@
-# don't upload full size pictures to github, only thumbnails
-# to upload full size images, deploy manually to firebase hosting
-public/assets/img/fullsize/
-
 # Logs
 logs
 *.log
