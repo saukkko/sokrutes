@@ -1,8 +1,11 @@
 {
   "name": "sokrutes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "./public/index.html",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saukko666/sokrutes.git"
@@ -12,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/saukko666/sokrutes/issues"
   },
-  "homepage": "https://github.com/saukko666/sokrutes#readme"
+  "homepage": "https://sokrutes.web.app",
+  "readme": "https://github.com/saukko666/sokrutes#readme"
 }
