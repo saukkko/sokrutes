@@ -2,4 +2,4 @@ This repo is pushed automatically to firebase hosting upon every commit and merg
 
 Visit https://sokrutes.web.app to see the website
 
-Dev branch is available at https://saukko666.github.io/sokrutes/public/pictures.html.
+Dev branch is available at https://saukko666.github.io/sokrutes/public/.
