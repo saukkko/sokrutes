@@ -50,6 +50,85 @@
       <main class="bg-light">
         <div class="container py-2">
           <h1>Tietoa</h1>
+          <!-- button.btn.btn-secondary[type=button][data-bs-toggle=collapse][data-bs-target][aria-expanded=false][aria-controls=]*3 -->
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#info1"
+            aria-expanded="false"
+            aria-controls="info1"
+          >
+            Info #1
+          </button>
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#info2"
+            aria-expanded="false"
+            aria-controls="info2"
+          >
+            Info #2
+          </button>
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#info3"
+            aria-expanded="false"
+            aria-controls="info3"
+          >
+            Info #3
+          </button>
+          <div class="collapse" id="info1">
+            <div class="card card-body">
+              <button
+                type="button"
+                class="btn-close"
+                aria-label="Close"
+                data-bs-toggle="collapse"
+                data-bs-target="#info1"
+              ></button>
+              <h5 class="card-title">Info #1</h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in
+              molestiae tenetur sint tempora, cumque non. Placeat maiores ipsum
+              ducimus expedita nesciunt impedit porro rerum neque, cumque
+              accusamus eveniet laboriosam.
+            </div>
+          </div>
+          <div class="collapse" id="info2">
+            <div class="card card-body">
+              <button
+                type="button"
+                class="d-flex justify-content-end btn-close"
+                aria-label="Close"
+                data-bs-toggle="collapse"
+                data-bs-target="#info2"
+              ></button>
+              <h5 class="d-flex card-title">Info #2</h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur eligendi unde sint neque, quas tenetur corrupti sunt
+              saepe iure, itaque, autem perspiciatis ab nam quo necessitatibus
+              fugit dignissimos debitis qui.
+            </div>
+          </div>
+          <div class="collapse" id="info3">
+            <div class="card card-body">
+              <button
+                type="button"
+                class="btn-close"
+                aria-label="Close"
+                data-bs-toggle="collapse"
+                data-bs-target="#info3"
+              ></button>
+              <h5 class="card-title">Info #3</h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae voluptas numquam, rerum necessitatibus amet sed
+              pariatur corrupti quos dolorum placeat qui, eveniet explicabo
+              tenetur ea aperiam rem sequi aliquid tempora!
+            </div>
+          </div>
         </div>
       </main>
       <footer>
